@@ -1,8 +1,8 @@
-import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/projeto-api/',
+  base: '/repo-API/',
+  // base: 'https://pauloassis17senai.github.io/repo-API/',
 })
